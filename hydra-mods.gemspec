@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
   s.description = "Hydra MODS components split out from hydra-head"
 
   s.add_dependency 'active-fedora', "~>4.1"
-  s.add_development_dependency "hydra-head"
   s.add_development_dependency "rspec"
   s.add_development_dependency "mocha"
   s.add_development_dependency "rspec-rails"

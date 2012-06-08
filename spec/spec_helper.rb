@@ -27,8 +27,6 @@ end
 require 'combustion'
 Combustion.initialize!
 require 'rspec/rails'
-require 'hydra'
-require 'hydra-head/engine'
 require 'hydra/mods'
 require 'hydra/datastream/common_mods_index_methods'
 require 'hydra/datastream/mods_basic'
