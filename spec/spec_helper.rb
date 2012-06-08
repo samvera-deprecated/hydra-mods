@@ -24,9 +24,7 @@ if ENV['COVERAGE'] and RUBY_VERSION =~ /^1.9/
   end
 end
 
-require 'combustion'
-Combustion.initialize!
-require 'rspec/rails'
+require 'rspec'
 require 'hydra/mods'
 require 'hydra/datastream/common_mods_index_methods'
 require 'hydra/datastream/mods_basic'
