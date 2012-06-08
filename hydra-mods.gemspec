@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name = 'hydra-mods'
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.platform = Gem::Platform::RUBY
   s.authors     = ["Matt Zumwalt, Bess Sadler, Julie Meloni, Naomi Dushay, Jessie Keck, John Scofield, Justin Coyne & many more.  See https://github.com/projecthydra/hydra-head/contributors"]
   s.email       = ["hydra-tech@googlegroups.com"]
