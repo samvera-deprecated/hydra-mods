@@ -1,5 +1,9 @@
 module Hydra
 
+  module Datastream
+    autoload :ModsArticle, 'hydra/datastream/mods_article'
+    autoload :ModsGenericContent, 'hydra/datastream/mods_generic_content'
+  end
   # DEPRECATED STUFF
   #module ModelMixins
   #  autoload :CommonModsIndexMethods, 'hydra/model_mixins/mods_object'
