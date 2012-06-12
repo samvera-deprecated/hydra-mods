@@ -1,7 +1,7 @@
 module Hydra
 
   module Datastream
-    autoload :CommonsModsIndexMethods, 'hydra/datastream/common_mods_index_methods'
+    autoload :CommonModsIndexMethods, 'hydra/datastream/common_mods_index_methods'
     autoload :ModsArticle, 'hydra/datastream/mods_article'
     autoload :ModsBasic, 'hydra/datastream/mods_basic'
     autoload :ModsGenericContent, 'hydra/datastream/mods_generic_content'
